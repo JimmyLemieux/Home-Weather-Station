@@ -1,0 +1,24 @@
+.weather-form {
+  background-color: white;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 1;
+}
+.lower-title {
+  transform: rotateX(360deg);
+}
+
+.info-appear {
+  opacity: 0.01;
+  background-color: inherit;
+  transform: translateX(100px) rotateX(180deg);
+}
+
+.info-appear.info-appear-active {
+  opacity: 1;
+  transform: translateX(0px) rotateX(0deg);
+  background-color: white;
+  transition: all 1.5s ease-out;
+}

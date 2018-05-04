@@ -1,0 +1,12 @@
+.Screen-Titles {
+  text-align: center;
+  font-weight: lighter;
+  font-family: Comic sans;
+  font-size: 25px;
+  background-color: white;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: linear-gradiant(-45deg,rgb(255,0,0));
+  width: 50%;
+}

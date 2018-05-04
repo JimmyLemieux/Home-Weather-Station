@@ -1,0 +1,20 @@
+.Parent-View {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+
+}
+
+.main-appear {
+  opacity: 0.01;
+  transform: translateY(80px);
+}
+
+.main-appear.main-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 1s ease-out;
+}
